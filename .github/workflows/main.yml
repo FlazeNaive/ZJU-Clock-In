@@ -6,8 +6,6 @@ on:
       - master
   watch:
     types: started
-  schedule:
-    - cron: 7 0/24 * * *
 
 jobs:
   ClockIn:
